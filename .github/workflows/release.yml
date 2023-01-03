@@ -20,6 +20,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
+          repository: trackleft/digital.arizona.edu
           token: ${{ secrets.REPO_DISPATCH_TOKEN }}
 
       - name: Build variables
